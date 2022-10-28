@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0%;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    background-color: aliceblue;
+    height: 100vh;
+}
+.intro{
+    padding: 50px;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    left: 15em;
+
+}
+.intro h1{
+    font-size: larger;
+    font-weight: bolder;
+}
+nav{
+ display: inline-block;
+ line-height: 2;
+ font-weight: bold;
+ font-size: small;
+ position: absolute;
+ left: 42em;
+ top: 3em;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+}
+.pic img{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.description h1{
+    width: 20%;
+    height: 3em;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 30px;
+}
+.paragraph{
+    position: absolute;
+    left: 16.8em;
+    top: 23.5em;
+    font-size: small;
+}
+.paragraph button{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 2px;
+    padding: 2px;
+}
+.type{
+    width: 16em;
+    background-color: black;
+    height: 20em;
+    position: absolute;
+    left: 32em;
+    top: 5em;
+}
+.type h1{
+    color: darkorange;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+hr{
+    margin: 1em;
+}
+.type h3{
+    color: white;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.type p{
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.summary{
+    columns: 3 auto;
+    width: 60%;
+    padding: 10px;
+}
+.summary img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 3px;
+}
+.summary h4{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+.summary p{
+    font-size: small;
+}
